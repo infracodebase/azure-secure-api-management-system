@@ -1,0 +1,11 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and modify the values for your environment
+
+environment      = "dev"
+location        = "East US"
+project_name    = "myapi"
+publisher_name  = "Your Organization"
+publisher_email = "admin@yourorg.com"
+apim_sku       = "Developer"  # Use Standard/Premium for production
+apim_capacity  = 1
+functions_sku  = "Y1"        # Use EP1/EP2/EP3 for premium functions
